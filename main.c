@@ -14,7 +14,7 @@ Node *create_node(int item)
     Node *new_node = (Node *)malloc(sizeof(Node));
 
     if (new_node == NULL) {
-        printf("Error! Could Not Creat A New Node\n");
+        printf("Error! Could Not Create A New Node\n");
         exit(1);
     }
 
